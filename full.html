@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<meta name="theme-color" content="#333333" />
+		<link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
+		
+		<link href="./_app/immutable/assets/0.C3yoJisb.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/toolbar.CU776vO-.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.B1zgoQ38.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.Di8Sb5Tx.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.C0K_npDq.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.3E_z0R72.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.QBihUEWl.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.D6kgxu3v.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.TBJpg9q5.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.16ZzjNc0.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/stores.Do_-8Xfr.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/common.DRTfjMrf.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/toast.BBSDrDSw.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/5.Dgf0UjPa.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/markmap.C_ikcqjR.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/debounce.mLjfHFhB.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/toolbar.CUJVmcqR.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/loader.DIx8CpJi.js"><title>markmap in full page view</title><!-- HEAD_svelte-mkjjb9_START --><meta name="Description" content="Show a predefined markmap in full page view."><!-- HEAD_svelte-mkjjb9_END -->
+	</head>
+	<body>
+		<div>    <main class="markmap-wrapper h-screen">  <svg xmlns="http://www.w3.org/2000/svg" class=" leading-none" style=""></svg> <div class="absolute right-0 bottom-0 mr-2 mb-2"></div></main> <div class="toast-wrapper"></div>  
+			
+			<script>
+				{
+					__sveltekit_m2pnbk = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.B1zgoQ38.js"),
+						import("./_app/immutable/entry/app.QBihUEWl.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 5],
+							data,
+							form: null,
+							error: null
+						});
+					});
+
+					if ('serviceWorker' in navigator) {
+						addEventListener('load', function () {
+							navigator.serviceWorker.register('./service-worker.js');
+						});
+					}
+				}
+			</script>
+		</div>
+	</body>
+</html>
